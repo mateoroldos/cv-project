@@ -1,0 +1,36 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.fullname {
+  color: red;
+}
+
+/* Form Styles */
+.form-xs {
+  font-size: 11px;
+}
+
+/* Study */
+.study {
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+}
+
+.study-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  font-size: 11px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.university {
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 8px;
+}
